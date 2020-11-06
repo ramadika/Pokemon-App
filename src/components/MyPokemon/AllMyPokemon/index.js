@@ -1,15 +1,16 @@
+// Dependencies
 import React, { useContext } from 'react';
 import Table from 'react-bootstrap/Table'
-import 'components/MyPokemon/AllMyPokemon/index.css'
 import { PokemonContext } from 'components/PokemonContext';
+// Internals
+import 'components/MyPokemon/AllMyPokemon/index.css'
 
 export default function Index() {
     const context = useContext(PokemonContext)
 
-    console.log(context.allPokes);
     return (
         <div className="allPoke container">
-            <h1 className="mb-5 text-center">My Pokemon</h1>
+            <h1 className="mb-5 text-center">My Pokemon List</h1> 
             <Table responsive="sm">
                 <thead>
                 <tr>

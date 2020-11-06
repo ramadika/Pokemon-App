@@ -1,18 +1,21 @@
+// Dependencies
 import React, { useState, useEffect, useContext } from 'react';
 import { NavLink } from 'react-router-dom'
-import 'components/MyPokemon/ThePokemon/index.css'
 import { PokemonContext } from 'components/PokemonContext';
+// Internals
+import 'components/MyPokemon/ThePokemon/index.css'
 
 export default function Index(props) {
     const context = useContext(PokemonContext)
 
     const [thePoke, setThePoke] = useState([]);
     const [nickName, setNickName] = useState('');
+    const URL = context.initialURL+props.match.params.id;
     
     useEffect(() => {
         const abortController = new AbortController();
         const signal = abortController.signal;
-        fetch("https://pokeapi.co/api/v2/pokemon/"+props.match.params.id, {signal: signal})
+        fetch(URL, {signal: signal})
         .then(res => res.json())
         .then(
             (result) => {
@@ -39,7 +42,7 @@ export default function Index(props) {
                     <h3 className="text-left">{thePoke.name}</h3>
                     <td><button onClick={() => context.handleAdd(nickName,thePoke.name)} className="btn btn btn-outline-success btn-sm mt-3"><NavLink to="/allmypoke">Add</NavLink></button></td>
                 </div>
-                <h6 className="ml-2 my-5"><b>Notes:</b> Click <span className="badge badge-success"> Add </span> to add your pokemon to <b>My Pokemon</b></h6>
+                <h6 className="ml-2 my-5"><b>Notes:</b> Click <span className="badge badge-success"> Add </span> to add your pokemon to <b>My Pokemon List</b></h6>
             </div>
         )
     }

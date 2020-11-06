@@ -1,7 +1,10 @@
+// Dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
+
+// Internals
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css'
 
@@ -15,19 +18,19 @@ import PokemonContextProvider from 'components/PokemonContext'
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Router>
     <Switch>
       <Route exact path="/" component={App}></Route>
       <BaseLayout>
         <PokemonContextProvider>
           <Route path="/pokemonList" component={PokemonList}></Route>
-          <Route exact path="/detail/:id" component={PokemonDetail}></Route>
+          <Route path="/detail/:id" component={PokemonDetail}></Route>
           <Route path="/allmypoke" component={AllMyPokemon}></Route>
           <Route path="/thePokemon/:id" component={ThePokemon}></Route>
         </PokemonContextProvider>
       </BaseLayout>
     </Switch>
-  </BrowserRouter>
+  </Router>
   ,
   document.getElementById('root')
 );

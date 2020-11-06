@@ -1,5 +1,7 @@
+// Dependencies
 import React from 'react';
 import { NavLink } from 'react-router-dom'
+// Internals
 import ImgBg from 'assets/img/atul-vinayak-J8c1hkwrr-8-unsplash.jpg'
 import './App.css';
 
@@ -11,10 +13,10 @@ function App() {
       <div className=" pokeApp">
         <h1>Pokemon</h1>
         <div>
-          <button className="btn btn-outline-success"><NavLink to="/pokemonList">Pokemon List</NavLink></button>
+          <NavLink className="btn btn-outline-success" to="/pokemonList">Pokemon List</NavLink>
         </div>
         <div>
-          <button className="btn btn-outline-success"><NavLink to="/allmypoke">My Pokemon</NavLink></button>
+          <NavLink className="btn btn-outline-success" to="/allmypoke">My Pokemon List</NavLink>
         </div>
       </div>
     </div>

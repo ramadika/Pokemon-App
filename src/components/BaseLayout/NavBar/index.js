@@ -3,6 +3,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+// Internals
 import 'components/BaseLayout/NavBar/index.css'
 
 function index() {
@@ -14,7 +15,7 @@ function index() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <NavLink className="nav-link" to="/pokemonList">Pokemon List</NavLink>
-                        <NavLink className="nav-link" to="/allmypoke">My Pokemon</NavLink>
+                        <NavLink className="nav-link" to="/allmypoke">My Pokemon List</NavLink> 
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
