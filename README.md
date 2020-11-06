@@ -31,7 +31,7 @@
 * Pokemon that is on My Pokemon List also be possible to remove from the list
 
 ## Release-Web
-**Pokemon - Web App** can be accessed [here](https://ramadika.github.io/backup-pokemon/#/)
+**Pokemon - Web App** can be accessed [here](https://ramadika.github.io/Pokemon-App/)
 
 ## Requirements
 * [`npm`](https://www.npmjs.com/get-npm)
