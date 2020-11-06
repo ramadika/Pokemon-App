@@ -27,7 +27,7 @@
 * List of Pokemon can be clicked to see Pokemon detail
 * Inside the Pokemon detail page, user can see a picture of the Pokemon with its moves and types
 * There is a button to catch the Pokemon inside the Pokemon detail page
-* if success then user can give the Pokemon a nickname and add that Pokemon to `My Pokemon List’
+* If success then user can give the Pokemon a nickname and add that Pokemon to `My Pokemon List’
 * Pokemon that have been caught by user can be seen inside My Pokemon List page
 * Pokemon that is on My Pokemon List also be possible to remove from the list
 
