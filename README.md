@@ -14,6 +14,7 @@
 - [Requirements](#requirements)
 - [Usage for Development](#usage-for-development)
 - [Screenshots](#screenshots)
+- [Attributed](#attributed)
 
 ## Introduction
 <b>Pokemon - Web App</b> is an web-based application to catch the Pokemon. There is a list of pokemon with their own unique moves that can be caught and then added to the catch list.
@@ -57,4 +58,8 @@
     <img width="200" src="./src/app-screenshots/Get the Pokemon.png">
     <img width="200" src="./src/app-screenshots/Successfully Added.png">
 </div>
+
+## Attributed
+* <span>Photo by <a href="https://unsplash.com/@16bitspixelz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kamil S</a> on <a href="https://unsplash.com/s/photos/pokemon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+* <span>Photo by <a href="https://unsplash.com/@atulvi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Atul Vinayak</a> on <a href="https://unsplash.com/s/photos/pokemon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
