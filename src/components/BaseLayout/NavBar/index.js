@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav'
 // Internals
 import 'components/BaseLayout/NavBar/index.css'
 
-function index() {
+export default function index() {
     return (
         <div className="Nav-Bar">
             <Navbar expand="lg">
@@ -23,4 +23,3 @@ function index() {
     )
 }
 
-export default index
