@@ -40,7 +40,7 @@ export default function Index(props) {
                     <h6 className="text-left">{nickName}</h6>
                     <span className="badge badge-success m-2">Pokemon</span>
                     <h3 className="text-left">{thePoke.name}</h3>
-                    <td><button onClick={() => context.handleAdd(nickName,thePoke.name)} className="btn btn btn-outline-success btn-sm mt-3"><NavLink to="/allmypoke">Add</NavLink></button></td>
+                    <NavLink to="/allmypoke"><button onClick={() => context.handleAdd(nickName,thePoke.name)} className="btn btn btn-outline-success btn-sm mt-3">Add</button></NavLink>
                 </div>
                 <h6 className="ml-2 my-5"><b>Notes:</b> Click <span className="badge badge-success"> Add </span> to add your pokemon to <b>My Pokemon List</b></h6>
             </div>
