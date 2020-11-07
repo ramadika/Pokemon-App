@@ -1,7 +1,7 @@
 // Dependencies
 import React, { useState, useEffect, useContext } from 'react';
 import { PokemonContext } from 'components/PokemonContext';
-// Internals
+// Internals 
 import 'components/PokemonList/index.css'
 import Pokemon from 'components/PokemonList/Pokemon'
 
