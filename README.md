@@ -47,8 +47,8 @@
 ## Screenshots
 <div align="center">
     <img width="200" src="./src/app-screenshots/Home.png">
-    <img width="200" src="./src/app-screenshots/Pokemon List.png">
     <img width="200" src="./src/app-screenshots/My Pokemon.png">
+    <img width="200" src="./src/app-screenshots/Pokemon List.png">
     <img width="200" src="./src/app-screenshots/Pokemon Detail - 1.png">
     <img width="200" src="./src/app-screenshots/Pokemon Detail - 2.png">
     <img width="200" src="./src/app-screenshots/Failed.png">
